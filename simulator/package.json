@@ -1,0 +1,30 @@
+{
+  "name": "railoptima-simulator",
+  "version": "1.0.0",
+  "description": "Railway operations simulator for scenario analysis",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest",
+    "cli": "node cli.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0",
+    "commander": "^11.1.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
+  },
+  "keywords": ["railway", "simulation", "optimization", "transportation"],
+  "author": "RailOptima Team",
+  "license": "MIT"
+}
